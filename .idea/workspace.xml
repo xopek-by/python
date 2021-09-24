@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d37ff65-35be-4a5e-b640-cc48ccef0789" name="Changes" comment="" />
+    <list default="true" id="1d37ff65-35be-4a5e-b640-cc48ccef0789" name="Changes" comment="Day 2 win" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +32,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="C:\Users\mbuz\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />

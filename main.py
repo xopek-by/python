@@ -1,1 +1,1 @@
-print("Day" + " 2")
+print("Day" + " 2" "win interpreter")
