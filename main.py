@@ -1,1 +1,2 @@
-print("Day" + " 2" "win interpreter")
+print("What is your name")
+input
