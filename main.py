@@ -1,2 +1,1 @@
-print("What is your name")
-input
+input("What is your name? \n")
