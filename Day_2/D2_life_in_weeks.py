@@ -1,18 +1,19 @@
 # This programm is calculating how many month, weeks and days is left for you, if you will live until 90 years
 
 # Waiting an age input from user and checking is that number less, then 90
+years = 90
 age = int(input("What is your current age?\n"))
-if age >= 90:
+if age >= years:
     print("Error. You need to input something less, then 90")
 
 else:
 # Calculating years left to 90
-    y_left = 90 - age
+    y = years - age
 
 # Calculating days, weeks and month
-    months = y_left * 12
-    weeks = y_left * 52
-    days  = y_left * 365
+    m = y * 12
+    w = y * 52
+    d = y * 365
 
 # Writing the answer
-    print(f"Your have {y_left} years until 90. This is {months} month. Or {weeks} weeks. Or {days} days")
+    print(f"Your have {y} years until 90. This is {m} month. Or {w} weeks. Or {d} days")
