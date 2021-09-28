@@ -2,14 +2,16 @@
 
 # Waiting an age input from user
 age = int(input("What is your current age?\n"))
-
+if age >= 90:
+    print("Error. You need to input something less, then 90")
+else:
 # Calculating years left to 90
-y_left = 90 - age
+    y_left = 90 - age
 
 # Calculating days, weeks and month
-months = y_left * 12
-weeks = y_left * 52
-days  = y_left * 365
+    months = y_left * 12
+    weeks = y_left * 52
+    days  = y_left * 365
 
 # Writing the answer
-print(f"Your have {y_left} years until 90. This is {months} month. Or {weeks} weeks. Or {days} days")
+    print(f"Your have {y_left} years until 90. This is {months} month. Or {weeks} weeks. Or {days} days")
