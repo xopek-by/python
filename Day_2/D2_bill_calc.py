@@ -14,4 +14,6 @@ bill_with_tip = float(bill) * (float(percent) / 100 + 1)
 
 # Calculating the final sum
 bill_per_person = round(bill_with_tip / peoples_calc, 2)
+
+# Showing result to the user
 print(f"So, you spend {bill} dollars with {int(peoples_calc-1)} friends, and decide to pay {percent}% tips. Each people should pay {bill_per_person} dollars")
