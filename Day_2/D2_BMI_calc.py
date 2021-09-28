@@ -1,9 +1,9 @@
 # Geting height and weight fro the user input
-height = float(input("Enter your height in m: "))
-weight = float(input("Enter your weight in kg: "))
+height = input("Enter your height in m: ")
+weight = input("Enter your weight in kg: ")
 
 # Calculating BMI
-BMI = weight / height ** 2
+BMI = (float(weight) / float(height) ** 2)
 
 # Cheking results and showing warning message
 if BMI <= 18.5:
