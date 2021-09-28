@@ -4,8 +4,8 @@
 years = 90
 age = int(input("What is your current age?\n"))
 while age >= years:
-    print("Error. You need to input something less, then 90")
-    age = int(input("What is your current age?\n"))
+    print("Sorry, seems like you already died(")
+    age = int(input("Input correct age, less then 90\n"))
 else:
 # Calculating years left to 90
     y = years - age
