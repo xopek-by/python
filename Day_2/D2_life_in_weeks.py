@@ -7,9 +7,9 @@ age = int(input("What is your current age?\n"))
 y_left = 90 - age
 
 # Calculating days, weeks and month
-month = y_left * 12
+months = y_left * 12
 weeks = y_left * 52
 days  = y_left * 365
 
 # Writing the answer
-print(f"Your have {y_left} years until 90. This is {month} month. Or {weeks} weeks. Or {days} days")
+print(f"Your have {y_left} years until 90. This is {months} month. Or {weeks} weeks. Or {days} days")
