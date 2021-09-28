@@ -9,10 +9,9 @@ peoples = input("How many people to split the bill\n")
 percent = input("What percentage tip would you like to give?\n")
 
 # Rounding and changing types of numbers
-bill_calc = float(bill)
-peoples_calc = float(peoples)
-percent_calc = float(percent) / 100 + 1
+peoples_calc = int(peoples)
+bill_with_tip = float(bill) * (float(percent) / 100 + 1)
 
 # Calculating the final sum
-sum = round(bill_calc * percent_calc / peoples_calc, 2)
+sum = round(bill_with_tip / peoples_calc, 2)
 print(f"So, you spend {bill} dollars with {int(peoples_calc-1)} friends, and decide to pay {percent}% tips. Each people should pay {sum} dollars")
